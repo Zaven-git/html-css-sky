@@ -1,0 +1,67 @@
+body {
+    background-image: url("./sky.jpg");
+    background-attachment: fixed;
+
+}
+.first {
+    display: block;
+    margin: 20% auto 0 auto;
+    width: 32%;
+    padding-left: 13%;
+}
+.first > img {
+    width: 7%;
+    display: inline-block;
+    margin-top: 45%;
+    margin-left: 23%;
+}
+.first > h2 {
+    width: 21%;
+    color: #eee;
+    font-size: 36px;
+    padding-left: 3%;
+    display: inline-block;
+    height: 26px;
+    font-style: normal;
+}
+.login {
+    text-align: center;
+    margin-left: 12%;
+    margin-bottom: 25%;
+}
+.login > input {
+    width: 22%;
+    background-color: #3c3b3b;
+    padding: 0.7%;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.login > a {
+    text-decoration: none;
+    color: #eee;
+    border: 1px solid black;
+    padding: 0.7%;
+    background-color: #3c3b3b;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.login > a:hover {
+    background-color:#ff7600;
+}
+.login > a:visited {
+    color: rgb(79, 128, 0);
+  }
+  .login > p {
+      color: #5f5f5f;
+      text-align: center;
+      word-spacing: 2px;
+  }
+  .login > p > a {
+      text-decoration: none;
+      color: #888;
+  }
+  .login > p > a:hover {
+      color: #fff;
+  }
+
+
